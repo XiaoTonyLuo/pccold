@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import pccold
+from pccold import pccold
 
 print('PcCold with DKZ')
 pccold.main()
