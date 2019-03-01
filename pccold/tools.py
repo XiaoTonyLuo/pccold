@@ -10,7 +10,7 @@ import os
 import signal
 import logging
 import traceback
-from .config import conf
+from pccold.config import conf
 
 #log set
 logging.basicConfig(level=logging.INFO,

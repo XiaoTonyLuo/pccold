@@ -24,9 +24,9 @@ import traceback
 import re
 import requests
 
-from .tools import sendEmails, saveStream, testRoomStatus, pidpool, ReturnCodeObserverThread, SleepKillerThread
-from .bypyrm import psCheck, initBypyRmEmail, bypyrm, doBypy
-from .config import conf
+from pccold.tools import sendEmails, saveStream, testRoomStatus, pidpool, ReturnCodeObserverThread, SleepKillerThread
+from pccold.bypyrm import psCheck, initBypyRmEmail, bypyrm, doBypy
+from pccold.config import conf
 
 is_live = False
 
